@@ -10,7 +10,9 @@ developers.trustnote.org/download/headlessVM.rar
 
 首先解压缩headlessVM，然后打开VirtualBox，在菜单中选择File -> import Appliance
 
-[](images/import vm.gif)
+![](images/import vm.gif)
+
+
 
 导入以后，点击headlessVM，再Show，这样就启动了虚拟机。
 
@@ -18,7 +20,7 @@ developers.trustnote.org/download/headlessVM.rar
 
 账号和密码都是developer
 
-图片: https://images-cdn.shimo.im/OCbVDfUM2KIOhZF1/login.gif
+![](images/login.gif)
 
 3、启动RPC服务
 
@@ -27,7 +29,8 @@ developers.trustnote.org/download/headlessVM.rar
 cd RPC
 npm run start_rpc
 
-图片: https://images-cdn.shimo.im/V2w5YpqFmDccug9G/start_rpc.gif
+![](images/start_rpc.gif)
+
 
 4、启动RESTful API
 
@@ -38,7 +41,7 @@ npm run start_rpc
 cd pythonSDK
 python3 web.py
 
-图片: https://images-cdn.shimo.im/iOsCjRaql5oB1U0C/start_resful_api.gif
+![](images/start_resful_api.gif)
 
 然后，你就可以在浏览器里访问虚拟机的ip，记住，端口号是8080。
 如果你不知道你虚拟机的ip，可以输入ifconfig命令来查看
@@ -47,11 +50,11 @@ python3 web.py
 
 5、创建地址
 
-图片: https://images-cdn.shimo.im/CzeiiGdZAcgIILB6/api_address.gif
+![](images/api_address.gif)
 
 6、查看总余额
 
-图片: https://images-cdn.shimo.im/olWcLTGjNVk758eX/show_amount.gif
+![](images/show_amount.gif)
 
 显然，我们新部署的节点，是没有余额的。
 
@@ -59,13 +62,13 @@ python3 web.py
 
 我们找到headlessRPC里的地址，去http://dev.trustnote.org/getTTT 领测试币，就可以看到余额了。
 
-图片: https://images-cdn.shimo.im/0jIC4LLSQtAlTAvg/show_amount_of_address.gif
+![](images/show_amount_of_address.gif)
 
 8、转账
 
 领币后，headlessRPC中就已经有余额了，之后我们向一个新建的地址里打入70个note，可以看到，这个交易速度是非常快的，几乎是秒到账的。
 
-图片: https://images-cdn.shimo.im/bOaAgYsHteYOgMR6/payment.gif
+![](images/payment.gif)
 
 
 pythonSDK配合headlessRPC的使用就简单介绍到这里，通过这几个常用功能的组合，就可以开发出很多应用了。
