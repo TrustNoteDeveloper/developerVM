@@ -1,10 +1,8 @@
-# developerVM
+# developerVM 使用方法
 
 下载：
 
-developers.trustnote.org/download/headlessVM.rar
-
-使用方法：
+[developers.trustnote.org/download/headlessVM.rar](developers.trustnote.org/download/headlessVM.rar)
 
 1、导入headlessVM
 
@@ -12,15 +10,17 @@ developers.trustnote.org/download/headlessVM.rar
 
 ![](images/import vm.gif)
 
-
-
 导入以后，点击headlessVM，再Show，这样就启动了虚拟机。
+
+
 
 2、登陆虚拟机
 
 账号和密码都是developer
 
 ![](images/login.gif)
+
+
 
 3、启动RPC服务
 
@@ -30,6 +30,7 @@ cd RPC
 npm run start_rpc
 
 ![](images/start_rpc.gif)
+
 
 
 4、启动RESTful API
@@ -48,9 +49,13 @@ python3 web.py
 
 这样，打开虚拟机的ip:8080 就可以开始调试了。
 
+
+
 5、创建地址
 
 ![](images/api_address.gif)
+
+
 
 6、查看总余额
 
@@ -58,11 +63,15 @@ python3 web.py
 
 显然，我们新部署的节点，是没有余额的。
 
+
+
 7、领测试币和查询余额
 
 我们找到headlessRPC里的地址，去http://dev.trustnote.org/getTTT 领测试币，就可以看到余额了。
 
 ![](images/show_amount_of_address.gif)
+
+
 
 8、转账
 
@@ -70,5 +79,8 @@ python3 web.py
 
 ![](images/payment.gif)
 
-
 pythonSDK配合headlessRPC的使用就简单介绍到这里，通过这几个常用功能的组合，就可以开发出很多应用了。
+
+
+
+<video controls="" autoplay="" name="media"><source src="http://developers.trustnote.org/videos/light.mp4" type="video/mp4"></video>
