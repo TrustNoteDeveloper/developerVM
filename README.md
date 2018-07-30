@@ -2,7 +2,7 @@
 
 下载：
 
-[developers.trustnote.org/download/headlessVM.rar](developers.trustnote.org/download/headlessVM.rar)
+[http://developers.trustnote.org/download/headlessVM.rar](http://developers.trustnote.org/download/headlessVM.rar)
 
 1、导入headlessVM
 
