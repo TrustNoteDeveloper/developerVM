@@ -6,13 +6,17 @@ developerVM 是一个虚拟机镜像，包含了headlessRPC和pythonSDK。该开
 
 [http://dev.trustnote.org:3000](http://dev.trustnote.org:3000)
 
-下载：
 
-[http://developers.trustnote.org/download/developerVM.ova](http://developers.trustnote.org/download/developerVM.ova)
 
-1、导入headlessVM
+官网下载：[http://developers.trustnote.org/download/developerVM.ova](http://developers.trustnote.org/download/developerVM.ova)
+百度网盘：[https://pan.baidu.com/s/1jk1Ggum3SQEswS5aJqA9TQ](https://pan.baidu.com/s/1jk1Ggum3SQEswS5aJqA9TQ)
 
-首先解压缩headlessVM，然后打开VirtualBox，在菜单中选择File -> import Appliance
+
+
+
+1、导入
+
+首先解压缩然后打开VirtualBox，在菜单中选择File -> import Appliance
 
 ![](images/import%20vm.gif)
 
