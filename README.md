@@ -26,8 +26,11 @@
 
 登陆后直接进入RPC目录，启动RPC服务。
 
+```
 cd RPC
+
 npm run start_rpc
+```
 
 ![](images/start_rpc.gif)
 
@@ -39,8 +42,11 @@ npm run start_rpc
 
 我们现在只需要：
 
+```
 cd pythonSDK
+
 python3 web.py
+```
 
 ![](images/start_resful_api.gif)
 
