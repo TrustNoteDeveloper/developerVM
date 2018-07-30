@@ -88,5 +88,15 @@ python3 web.py
 pythonSDK配合headlessRPC的使用就简单介绍到这里，通过这几个常用功能的组合，就可以开发出很多应用了。
 
 
+9、私钥在哪儿？
+
+输入以下命令，可以看到私钥，包括助记词。
+
+```
+cat ~/.config/lightwallet/keys.json
+```
+
+10、更多原生RPC命令，参考 [https://github.com/TrustNoteDevelopers/RPC](https://github.com/TrustNoteDevelopers/RPC)
+
 
 <video controls="" autoplay="" name="media"><source src="http://developers.trustnote.org/videos/light.mp4" type="video/mp4"></video>
