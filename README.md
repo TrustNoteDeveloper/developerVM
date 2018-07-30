@@ -1,5 +1,11 @@
 # developerVM 使用方法
 
+developerVM 是一个虚拟机镜像，包含了headlessRPC和pythonSDK。该开发环境使用开发者测试网络，开发所用的TTT都可以通过[http://dev.trustnote.org/getTTT](http://dev.trustnote.org/getTTT)免费领取。 
+
+一切测试结果，可以通过开发者区块链浏览器查看：
+
+[http://dev.trustnote.org:3000](http://dev.trustnote.org:3000)
+
 下载：
 
 [http://developers.trustnote.org/download/headlessVM.rar](http://developers.trustnote.org/download/headlessVM.rar)
