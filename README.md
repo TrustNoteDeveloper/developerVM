@@ -8,7 +8,7 @@
 
 首先解压缩headlessVM，然后打开VirtualBox，在菜单中选择File -> import Appliance
 
-![](images/import vm.gif)
+![](images/import%20vm.gif)
 
 导入以后，点击headlessVM，再Show，这样就启动了虚拟机。
 
